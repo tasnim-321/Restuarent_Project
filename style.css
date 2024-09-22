@@ -1,0 +1,742 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.top_bar{
+    background: rgb(63, 63, 63);
+    display: flex;
+    width: 100%;
+    height: 70px;
+    justify-content: space-between;
+}
+img{
+  height: 30px; 
+  width: 30px;
+  margin-top: 10px;
+}
+.info{
+    display: flex;
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;;
+}
+.icon h2{
+    background: rgb(108, 209, 8);
+    padding: 5px;
+    margin-right: 8px;
+    color: white;
+    margin-top: 20px;
+
+}
+header{
+    width: 100%;
+    height: 100px;
+    background:black;
+    display: flex;
+    justify-content: space-around;
+}
+.tomato{
+    display: flex;
+}
+header img{
+    width: 100px;
+    height: 70px;
+}
+header h2{
+    margin-top: 25px;
+    color: white;
+}
+ul{
+    display: flex;
+}
+li{
+    list-style: none;
+    margin: 15px;
+    color: white;
+}
+a{
+
+    text-decoration: none;
+    color: white;
+}
+.menu{
+    display: flex;
+    font-size: 25px;
+    margin-top: 20px;
+}
+.fa-shopping-cart{
+    height: 20px;
+    width: 20px;
+    margin: 15px;
+    color: white;
+}
+.hero_area{
+   background: url(./vecteezy_ai-generated-fresh-tomato-salad-healthy-gourmet-vegetarian_36210130\ \(1\).jpg);
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+}
+.hero_area img{
+    height: 200px;
+    width: 350px;
+    margin-top: 160px;
+}
+.overlay_four{
+    height: 660px;
+    width: 100%;
+    background: rgba(2, 13, 31, 0.521);
+    padding: 20px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.color{
+    color: white;
+    font-size: 35px;
+}
+.color h1{
+    margin-left: 90px;
+    font-weight: bold;
+}
+.one{
+    position: relative;
+    font-size: 20px;
+}
+.one_one{
+    position: absolute;
+    background: rgba(26, 25, 25, 0.13);
+    color: white;
+    width: 200px;
+    height: 230px;
+    display: none;
+    font-size: 15px;
+}
+.one:hover .one_one{
+    display: block;
+}
+.two{
+    position: relative;
+    font-size: 20px;
+}
+.two_two{
+    position: absolute;
+    background: rgba(26, 25, 25, 0.13);
+    color: white;
+    width: 200px;
+    height: 200px;
+    display: none;
+    font-size: 15px;
+}
+.two:hover .two_two{
+    display: block;
+}
+.three{
+    position: relative;
+    font-size: 20px;
+}
+.three_three{
+    position: absolute;
+    background: rgba(26, 25, 25, 0.13);
+    color: white;
+    width: 200px;
+    height: 200px;
+    display: none;
+    font-size: 15px; 
+}
+.three:hover .three_three{
+    display: block;
+}
+.four{
+    position: relative;
+    font-size: 20px;
+}
+.four_four{
+    position: absolute;
+    background: rgba(26, 25, 25, 0.13);
+    color: white;
+    width: 200px;
+    height: 200px;
+    display: none;
+    font-size: 15px;   
+}
+.four:hover .four_four{
+    display: block;
+}
+.five{
+    position: relative;
+    font-size: 20px;
+}
+.five_five{
+    position: absolute;
+    background: rgba(26, 25, 25, 0.13);
+    color: white;
+    width: 200px;
+    height: 200px;
+    display: none;
+    font-size: 15px;      
+}
+.five:hover .five_five{
+    display:block ;
+}
+.six{
+    position: relative;
+    font-size: 20px;
+}
+.six_six{
+    position: absolute;
+    background: rgba(26, 25, 25, 0.13);
+    color: white;
+    width: 200px;
+    height: 200px;
+    display: none;
+    font-size: 15px;  
+}
+.six:hover .six_six{
+    display: block;
+}
+.con{
+    position: relative;
+    font-size: 20px;
+}
+li:hover a{
+    color: rgb(233, 210, 33);
+}
+.history{
+    height:600px;
+    width:95%;
+    padding: 30px;
+}
+.part_one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+hr{
+    width: 100px;
+    border: none;
+    border-bottom: 3px solid orange;
+}
+.part_two{
+   display: flex;
+}
+.first_parts{
+   height: 250px; 
+   width: 320px;
+}
+.second_parts{
+    height: 150px; 
+    width: 150px;
+}
+.second{
+    display: flex;
+    gap: 20px;
+}
+.description{
+    font-size: 30px;
+    padding: 12px;
+}
+h3{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    margin-left: 200px;
+}
+.slide{
+    background: url(./vecteezy_fresh-fruit-salad-in-a-bowl-on-wooden-background-selective_33880827.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 660px;
+    width: 100%;
+    
+}
+.your-class div{
+    display: flex;
+    width: 60%;
+}
+.your-class img{
+    height: 500px;
+    width: 800px;
+    gap: 10px;
+    margin: 0 auto;
+    margin-top: 150px;
+    
+}
+.slick-prev:before, .slick-next:before { 
+    color:rgb(169, 163, 163) !important;
+}
+.slick-prev::before,
+.slick-next::before {
+    color: rgba(0, 0, 0, 0.2);
+    font-size: 1.5rem;
+}
+
+.slick-prev,
+.slick-next {
+    width: 1.5rem;
+    height: 1.5rem;
+    z-index: 2;
+}
+
+.slick-list {
+    width: 95%;
+    margin: 0 auto;
+}
+.slick-prev {
+        left: -498px;
+}
+.slick-next {
+    right: 100px;
+
+}
+.slick-dots li button:before {
+    font-family: 'slick';
+    font-size: 50px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: '.';
+    text-align: center;
+    opacity: .25;
+    color: rgb(255, 255, 255);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+   margin-top: -50px;
+}
+.slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: rgb(232, 243, 229);
+}
+.overlay{
+    height: 620px;
+    width: 100%;
+    background: rgba(2, 13, 31, 0.521);
+    padding: 20px;
+}
+.reservation{
+    height:600px;
+    width:95%;
+    padding: 30px;
+}
+.booking{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+hr{
+    width: 100px;
+    border: none;
+    border-bottom: 3px solid orange;
+}
+.form{
+    display: flex;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(255, 238, 238);
+    width: 1000px;
+    height: 250px;
+    padding: 10px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-style: groove;
+}
+.name{
+    display: flex;
+    padding: 10px;
+    gap: 180px;
+}
+input{
+    height: 30px;
+    width: 200px;
+}
+button{
+    height: 40px;
+    width: 250px;
+    background-color: rgb(234, 186, 62);
+    border: 3px solid black;
+    margin-left: 600px;
+    top: 30px;
+}
+h5{
+    width:800px;
+    background-color: silver;
+    color: black;
+    padding: 20px;
+    font-size: 30px;
+    margin-left: 330px;
+    top: 2opx;
+}
+.our{
+    height:800px;
+    width:95%;
+    padding: 40px;
+    background: url(./2nd.avif);
+    color: white;
+}
+.highslider{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+.newslider{
+    width: 350px;
+    height: 600px;
+    color: black;
+}
+.newslider img{
+    width: 350px;
+    height:250px ;
+}
+.newslider p{
+    font-size: 24px;
+}
+.newslidertwo{
+    width: 350px;
+    height: 600px;
+    color: black;
+}
+.newslidertwo img{
+    width: 350px;
+    height:250px ;
+}
+.newslidertwo p{
+    font-size: 24px;
+}
+.newsliderthree{
+    width: 350px;
+    height: 600px;
+    color: black;
+}
+.newsliderthree img{
+    width: 350px;
+    height:250px ;
+}
+.newsliderthree p{
+    font-size: 24px;
+}
+.newslider:hover img{
+    transform: scale(1.1);
+}
+.newslidertwo:hover img{
+    transform: scale(1.1);
+}
+.newsliderthree:hover img{
+    transform: scale(1.1);
+}
+.chobi{
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+.padd{
+    padding: 13px;
+    background: white;
+}
+.lastsection{
+    height:700px;
+    width:95%;
+    padding: 40px;
+}
+.lastproject{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: black;
+}
+footer{
+    display: flex;
+    justify-content: center;
+}
+.under{
+    display: flex;
+   
+}
+.under li{
+    list-style: none;
+    margin: 18px;
+    color: rgb(24, 5, 5);
+    font-size: 28px;
+}
+.under a{
+
+    text-decoration: none;
+    color: rgb(19, 19, 21);
+}
+.tools{
+    position: absolute;
+    color: rgb(21, 20, 20);
+    width: 1000px;
+    height: 250px;
+}
+.prestep{
+    display: flex;
+}
+.step li{
+    font-size: 20px;
+    
+}
+.complete{
+    height:300px;
+    width:95%;
+    padding: 30px;
+}
+.trusted{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: black;
+    margin-left: 120px;
+}
+hr{
+    width: 100px;
+    border: none;
+    border-bottom: 3px solid orange;
+}
+.lol{
+    gap: 40px;
+    display: flex;
+    justify-content: center;
+}
+.fa-foursquare{
+    font-size: 30px;
+    color: grey;
+    opacity: 10px;
+}
+.fa-tripadvisor{
+    font-size: 30px;
+    color: grey;
+    opacity: 10px;
+}
+.fa-lemon-o{
+    font-size: 30px;
+    color: grey;
+    opacity: 10px;
+}
+.fa-cutlery{
+    font-size: 30px;
+    color: grey;
+    opacity: 10px;
+} 
+.animated{
+    background: url(./sliderimg/m.webp);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 560px;
+    width: 100%;
+}
+.overlaytwo{
+    height: 520px;
+    width: 97.2%;
+    background: rgba(2, 13, 31, 0.521);
+    padding: 20px;
+}
+.todays{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: white
+}
+.sliderparttwo{
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.imgslider img{
+    height: 250px;
+    width: 270px;
+}
+.textslider{
+    font-size: 25px;
+    width: 600px;
+    height: 250px;
+}
+.new_class{
+    height: 269px;
+    width: 950px;
+    align-items: center;
+    background: transparent;
+    margin-left: 200px;
+    margin-top: 80px;
+}
+.insta{
+    height:130px;
+    width:100%;
+    padding: 30px;
+}
+.para{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: black;
+}
+.subs{
+    width: 100%;
+    height: 130px;
+    background: rgb(233, 230, 230);
+}
+.get{
+    display: flex;
+    color: black;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px;
+}
+.your{
+    display: flex;
+    gap: 30px;
+}
+.your input{
+    border: 2px solid goldenrod;
+    margin-left: 1110px;
+}
+.fa-chevron-right{
+    color: black;
+    background: rgb(237, 184, 51);
+    width: 30px;
+    padding-top: 11px;
+    padding-left: 18px;
+}
+.prelast{
+    background: url(./sliderimg/eggg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 250px;
+    width: 100%;
+}
+.overlaythree{
+    height: 210px;
+    width: 97.2%;
+    background: rgba(2, 13, 31, 0.521);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+.aboutus h1{
+    color: gold;
+}
+h4{
+    color: gold;
+}
+.recentpost h1{
+    color: gold;
+}
+.inthemiddle{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.inthemiddle img{
+    width: 50px;
+    height: 50px;
+}
+.inthemiddletwo{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.inthemiddletwo img{
+    width: 50px;
+    height: 50px;
+}
+.font{
+    background: rgb(44, 41, 41);
+    height: 30px;
+    width: 200px;
+   display: flex;
+   gap: 6px;
+   align-items: center;
+  justify-content: center;
+}
+.location{
+    display: flex;
+    gap: 8px;
+}
+.fa-map-marker{
+    color: gold;
+}
+.phone{
+    display: flex;
+    gap: 8px;
+}
+.fa-phone{
+    color: gold;
+}
+.mail{
+    display: flex;
+    gap: 8px;
+}
+.fa-envelope-o{
+    color: gold;
+}
+.reachus h1{
+    color: gold;
+}
+.lastfooter{
+    background: rgb(14, 14, 14);
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.lastfooter h4{
+    color: gray;
+}
+.fa-creative-commons{
+    color: gray;
+}
+.fa-heart{
+    color: goldenrod;
+}
+.formtermtwo{
+    display: flex;
+  
+}
+.fa-calendar-o{
+    gap: -150px;
+}
+
+
+.new_class .slick-next {
+    right: -101px;
+}
+.new_class .slick-prev {
+    left: -688px;
+}
+.under hr{
+    width: 60px;
+    border: none;
+    border-bottom: 3px solid orange;
+}
+.lekha{
+    font-size: 30px;
+    color: aliceblue;
+    margin-bottom:150px ;
+}
+.lekha img{
+    height: 25px;
+    width: 25px;
+}
